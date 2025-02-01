@@ -44,11 +44,11 @@ export default function Testimonials() {
         <div className="block md:flex w-full radius-24 bg-[#000]">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="w-full md:w-1/3 overflow-hidden">
-              <div className="relative bg-[#242636] p-10 m-5 h-[300px] rounded-xl  w-auto overflow-hidden">
+              <div className="relative bg-[#242636] p-5 md:p- m-5 h-[300px] rounded-xl  w-auto overflow-hidden">
                 <div className="absolute top-4 right-4 text-4xl bg-quote-gradient text-transparent bg-clip-text">
                   <Image src={Vector} alt="Vector" className="" />
                 </div>
-                <div className=" py-5 md:p-10 ">
+                <div className=" py-5 md:p-10 mt-5">
                   <div className="flex items-center space-x-4">
                     <Image src={Ellipse} alt="Ellipse" />
                     <div>
