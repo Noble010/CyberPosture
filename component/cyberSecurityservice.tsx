@@ -1,5 +1,3 @@
-import { Box, Card } from "@mantine/core";
-
 const services = [
   {
     title: "Compliance Readiness and Self-Assessments",
